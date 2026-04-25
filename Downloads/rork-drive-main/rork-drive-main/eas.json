@@ -13,8 +13,15 @@
         "credentialsSource": "remote"
       },
       "env": {
-        "EXPO_PUBLIC_SUPABASE_URL": "https://your-project.supabase.co",
-        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "your-anon-key"
+        "EXPO_PUBLIC_PROJECT_ID": "i3ycts4qs75xuu5dfjfqx",
+        "EXPO_PUBLIC_RORK_API_BASE_URL": "https://dev-i3ycts4qs75xuu5dfjfqx.rorktest.dev",
+        "EXPO_PUBLIC_RORK_AUTH_URL": "https://api.rork.com",
+        "EXPO_PUBLIC_RORK_TOOLKIT_SECRET_KEY": "rork_sk_lyx06lflnrtb0nligvj6ef25rndaqjuu",
+        "EXPO_PUBLIC_TEAM_ID": "03913f3d-711b-4d3c-940b-fbb529d2ec98",
+        "EXPO_PUBLIC_TOOLKIT_URL": "https://toolkit.rork.com",
+        "EXPO_PUBLIC_REVENUECAT_IOS_API_KEY": "appl_MBblqodRlUpTmJnihxcXaXmzNqI",
+        "EXPO_PUBLIC_REVENUECAT_ANDROID_API_KEY": "goog_GSHIZQCqJPuJXSFhVPgFnWCAiKw",
+        "EXPO_PUBLIC_REVENUECAT_TEST_API_KEY": "appl_MBblqodRlUpTmJnihxcXaXmzNqI"
       }
     },
     "preview": {
@@ -28,9 +35,15 @@
       },
       "developmentClient": true,
       "env": {
-        "EXPO_PUBLIC_SUPABASE_URL": "https://your-project.supabase.co",
-        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "your-anon-key",
-        "EXPO_PUBLIC_REVENUECAT_TEST_API_KEY": "your-test-key"
+        "EXPO_PUBLIC_PROJECT_ID": "i3ycts4qs75xuu5dfjfqx",
+        "EXPO_PUBLIC_RORK_API_BASE_URL": "https://dev-i3ycts4qs75xuu5dfjfqx.rorktest.dev",
+        "EXPO_PUBLIC_RORK_AUTH_URL": "https://api.rork.com",
+        "EXPO_PUBLIC_RORK_TOOLKIT_SECRET_KEY": "rork_sk_lyx06lflnrtb0nligvj6ef25rndaqjuu",
+        "EXPO_PUBLIC_TEAM_ID": "03913f3d-711b-4d3c-940b-fbb529d2ec98",
+        "EXPO_PUBLIC_TOOLKIT_URL": "https://toolkit.rork.com",
+        "EXPO_PUBLIC_REVENUECAT_IOS_API_KEY": "appl_MBblqodRlUpTmJnihxcXaXmzNqI",
+        "EXPO_PUBLIC_REVENUECAT_ANDROID_API_KEY": "goog_GSHIZQCqJPuJXSFhVPgFnWCAiKw",
+        "EXPO_PUBLIC_REVENUECAT_TEST_API_KEY": "appl_MBblqodRlUpTmJnihxcXaXmzNqI"
       }
     }
   },
@@ -41,9 +54,9 @@
         "track": "production"
       },
       "ios": {
-        "appleId": "your@apple.id",
+        "appleId": "un11xed@email.com",
         "ascAppId": "1234567890",
-        "appleTeamId": "YOURTEAMID"
+        "appleTeamId": "03913f3d-711b-4d3c-940b-fbb529d2ec98"
       }
     }
   }
