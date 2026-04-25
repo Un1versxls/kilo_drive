@@ -1,0 +1,50 @@
+{
+  "cli": {
+    "version": ">= 0.55.0"
+  },
+  "build": {
+    "production": {
+      "android": {
+        "buildType": "app-bundle",
+        "credentialsSource": "remote"
+      },
+      "ios": {
+        "buildType": "archive",
+        "credentialsSource": "remote"
+      },
+      "env": {
+        "EXPO_PUBLIC_SUPABASE_URL": "https://your-project.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "your-anon-key"
+      }
+    },
+    "preview": {
+      "android": {
+        "buildType": "apk",
+        "credentialsSource": "remote"
+      },
+      "ios": {
+        "buildType": "archive",
+        "credentialsSource": "remote"
+      },
+      "developmentClient": true,
+      "env": {
+        "EXPO_PUBLIC_SUPABASE_URL": "https://your-project.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "your-anon-key",
+        "EXPO_PUBLIC_REVENUECAT_TEST_API_KEY": "your-test-key"
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "android": {
+        "serviceAccountKeyPath": "./service-account.json",
+        "track": "production"
+      },
+      "ios": {
+        "appleId": "your@apple.id",
+        "ascAppId": "1234567890",
+        "appleTeamId": "YOURTEAMID"
+      }
+    }
+  }
+}
